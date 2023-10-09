@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+/*#region utility*/
+
+/*Utility*/
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.fix{
+    position: fixed;
+}
+
+.ma{
+    width: 80%;
+    margin: auto;
+}
+/*#endregion utility*/
+
+/*#region header*/
+.container_h{
+    display:flex;
+}
+
+.container_h div{
+    width: calc(100% / 3);
+}
+
+.logo_boo img{
+    width: 30%;
+}
+
+.genere a{
+    text-decoration: none;
+}
+/*#endregion header*/
+
+/*#region main*/
+
+/*#endregion main*/
+
+/*#region footer*/
+
+/*#endregion footer*/
+
+
+

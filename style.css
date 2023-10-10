@@ -34,6 +34,11 @@ body{
     font-size: smaller;
 }
 
+.lin{
+    text-decoration:line-through;
+    font-size: small;
+}
+
 /*#endregion utility*/
 
 :root{
@@ -130,7 +135,7 @@ main> .container{
 }
 
 .sconto, .sost{
-    bottom: 40px;
+    bottom: 100px;
     line-height: 25px;
     color: var(--white);
     text-align: center;

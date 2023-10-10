@@ -94,7 +94,6 @@ main> .container{
 }
 
 .prod2 {
-    position: absolute;
     top: 0;
     left: 0;
 }
@@ -102,6 +101,45 @@ main> .container{
 .prod:hover .prod2{
     display: none;
 }
+
+.cuore{
+    top: 25px;
+    right: 0;
+    background-color: var(--white);
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.cuore:hover{
+    color: var(--red);
+}
+
+.sconto{
+    background-color: var(--red);
+    width: 50px;
+    display: inline-block;
+}
+
+.sost{
+    background-color: var(--green);
+    width: 90px;
+    display: inline-block;
+    left: 55px;
+}
+
+.sconto, .sost{
+    bottom: 40px;
+    line-height: 25px;
+    color: var(--white);
+    text-align: center;
+}
+
+.sost.ult{
+    left: 0;
+}
+
 
 /*#endregion main*/
 

@@ -75,6 +75,34 @@ header>.container{
 
 /*#region main*/
 
+main> .container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.prod{
+    width: calc(100% - 20px / 3);
+}
+
+.prod img{
+    width: 100%;
+}
+
+.prod.c{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prod2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prod:hover .prod2{
+    display: none;
+}
+
 /*#endregion main*/
 
 /*#region footer*/

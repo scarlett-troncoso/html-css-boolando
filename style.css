@@ -39,6 +39,9 @@ body{
     font-size: small;
 }
 
+.tx{
+    text-align: center;
+}
 /*#endregion utility*/
 
 :root{
@@ -113,7 +116,6 @@ main> .container{
     background-color: var(--white);
     height: 25px;
     width: 30px;
-    text-align: center;
     line-height: 25px;
 }
 
@@ -138,7 +140,6 @@ main> .container{
     bottom: 100px;
     line-height: 25px;
     color: var(--white);
-    text-align: center;
 }
 
 .sost.ult{
@@ -149,7 +150,36 @@ main> .container{
 /*#endregion main*/
 
 /*#region footer*/
+footer{
+    background-color: var(--black);
+}
 
+footer>.container{
+    justify-content: space-between;  
+    padding: 2rem 0;
+}
+
+.logo_f, .social{
+    color: var(--white);
+    padding-bottom: 5px;
+}
+
+.info a, .icons_f{
+    text-decoration: none;
+    vertical-align: middle;
+    color: var(--white);
+    font-size: small;
+    padding-right: 10px;
+}
+
+.icons_f i{
+    color: var(--black);
+    background-color: var(--white);
+    line-height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
 /*#endregion footer*/
 
 

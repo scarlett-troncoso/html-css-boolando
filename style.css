@@ -8,6 +8,12 @@ body{
     font-family: Arial;
 }
 
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
 /*#region utility*/
 
 /*Utility*/
@@ -23,27 +29,47 @@ body{
     position: fixed;
 }
 
-.ma{
-    width: 80%;
-    margin: auto;
+.b{
+    font-weight: bold;
+    font-size: smaller;
 }
+
 /*#endregion utility*/
 
-/*#region header*/
-.container_h{
-    display:flex;
+:root{
+    --orange: orangered;
+    --white: white;
+    --red: red;
+    --green: green;
+    --black: black;
 }
 
-.container_h div{
-    width: calc(100% / 3);
+/*#region header*/
+
+header{
+    background-color: var(--orange);
+    box-shadow: 0 1px 4px #767676;
+}
+
+header>.container{
+    justify-content: space-between;  
 }
 
 .logo_boo img{
-    width: 30%;
+    width: 100%;
+    padding-top: 5%;
+    color: var(--white);
 }
 
-.genere a{
+.logo_boo{
+    width: 10%;
+}
+
+.genere a, .icons_h{
     text-decoration: none;
+    vertical-align: middle;
+    line-height: 43px;
+    color: var(--white);
 }
 /*#endregion header*/
 
